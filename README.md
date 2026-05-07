@@ -81,18 +81,15 @@ It splits any audio stream (a music file or microphone input) into frequency ban
 This contributes three things to the assignment: it directly satisfies the **audio mechanic** requirement, it makes **modular code separation natural** (one band per shape per file), and `loadSound()` lets users swap tracks for replay value.
 
 ### Example Implementation Links
-
-**Primary reference - Daniel Shiffman / The Coding Train, "17.11: Sound Visualization - Frequency Analysis with FFT":**
-
-- Tutorial video: [youtube.com/watch?v=2O3nm0Nvbi4](https://www.youtube.com/watch?v=2O3nm0Nvbi4)
-- Runnable example sketch (with full source code): [editor.p5js.org/codingtrain/sketches/jOIM63Sat](https://editor.p5js.org/codingtrain/sketches/jOIM63Sat)
-
-**Secondary references:**
-
-- Official `p5.FFT` documentation: [p5js.org/reference/p5.sound/p5.FFT/](https://p5js.org/reference/p5.sound/p5.FFT/)
-- p5.js official Frequency Spectrum example (with source code): [p5js.org/examples/sound-frequency-spectrum/](https://p5js.org/examples/sound-frequency-spectrum/)
-
-> All code that drives the technique above already exists at the linked sketches. I have **not** written any code myself for this quiz; the links above are sufficient to inspect a complete, working implementation.
-
----
-
+ 
+**Primary reference - p5.js official "Sound: FFT Spectrum" example:**
+ 
+- Runnable example sketch with full source code: [editor.p5js.org/p5/sketches/Sound:_FFT_Spectrum](https://editor.p5js.org/p5/sketches/Sound:_FFT_Spectrum)
+**Tutorial video - Daniel Shiffman / The Coding Train, "17.11: Sound Visualization - Frequency Analysis with FFT":**
+ 
+- Video walkthrough: [youtube.com/watch?v=2O3nm0Nvbi4](https://www.youtube.com/watch?v=2O3nm0Nvbi4)
+**Documentation:**
+ 
+- Official `p5.FFT` reference page: [p5js.org/reference/p5.sound/p5.FFT/](https://p5js.org/reference/p5.sound/p5.FFT/)
+> All code that drives the technique above already exists at the linked sketch. I have **not** written any code myself for this quiz; the link above is sufficient to inspect a complete, working implementation.
+ 
