@@ -64,10 +64,11 @@ It splits any audio stream (a music file or microphone input) into frequency ban
 ### Reference Image
 
 **Screenshot - `p5.FFT` driving a real-time spectrum visualization:**
-
-![p5.js FFT sound visualization screenshot](https://i.ytimg.com/vi/2O3nm0Nvbi4/maxresdefault.jpg)
-
-> *Source: The Coding Train tutorial 17.11. Each vertical bar's height is the energy of one frequency bin returned by* `fft.analyze()`*.*
+ 
+![p5.js FFT sound visualization screenshot](readmeImages/p5_fft_screenshot.jpg)
+ 
+> *Source: screenshot from the p5.js official **Sound: FFT Spectrum** example sketch. Each vertical bar's height represents the energy of one frequency bin returned by* `fft.analyze()`*.*
+ 
 
 ### Discussion
 
